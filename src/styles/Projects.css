@@ -1,0 +1,105 @@
+#projects {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.listofprojects {
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  columns: 50%;
+  flex-wrap: wrap;
+  flex: 1 0 50%;
+}
+
+.project {
+  width: 30vw;
+  border-radius: 0.25rem;
+  padding-bottom: 1vh;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.links-div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.project > img {
+  width: 100%;
+  height: auto;
+  border-radius: 0.25rem;
+}
+
+.link {
+  width: 40%;
+  text-align: center;
+  text-decoration: unset;
+  color: black;
+  border-radius: 0.3rem;
+  border: 1px solid black;
+  padding: 1vh 1vw;
+}
+
+.link:hover {
+  text-decoration: unset;
+  color: white;
+  background-color: black;
+  border-radius: 0.3rem;
+  border: 1px solid black;
+  padding: 1vh 1vw;
+}
+
+.projecttext {
+  padding: 1vh 1vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex: 1;
+}
+
+.title {
+  margin: 0;
+  font-size: 1.5rem;
+}
+
+@media only screen and (max-width: 992px) {
+  .project {
+    width: 40vw;
+    border-radius: 0.25rem;
+    padding-bottom: 1vh;
+  }
+
+  .listofprojects {
+    width: 90%;
+
+    flex: 1;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .project {
+    width: 70vw;   
+  }
+
+  .listofprojects {
+    width: 90%;
+    justify-content: center;
+
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .project {
+    width: 90vw; 
+  }
+}

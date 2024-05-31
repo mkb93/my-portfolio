@@ -1,0 +1,89 @@
+#main {
+  height: 100vh;
+  background-color: hsla(205, 82%, 91%, 1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.name {
+  font-size: 11vw;
+  font-weight: 500;
+  padding-top: 1rem;
+  color: 	white;
+  font-family: Cambria, serif;
+  letter-spacing: 0.015rem;
+  margin: 0;
+}
+
+.subname {
+  color: white;
+  font-size: 3vw;
+  font-family: Cambria, serif;
+  letter-spacing: 0.015rem;
+  margin-top: 0;
+}
+
+.linktoprojects {
+  display: flex;
+  justify-content: center;
+  text-decoration: unset;
+  width: 20%;
+  background-color: white;
+  color: black;
+  border: white solid 1px;
+  border-radius: 0.3rem;
+  padding: 1vh 1vw;
+  transition: all 0.5s;
+}
+
+.linktoprojects:hover {
+  background-color: black;
+  color: hsla(205, 82%, 91%, 1);
+  border: black solid 1px;
+  border-radius: 0.3rem;
+  transition: all 0.5s;
+}
+
+@media only screen and (max-width: 576px) {
+  .linktoprojects {
+    display: flex;
+    justify-content: center;
+    text-decoration: unset;
+    width: 80%;
+    background-color: white;
+    color: black;
+    border: black solid 1px;
+    border-radius: 0.3rem;
+    padding: 1vh 1vw;
+  }
+
+  #main {
+    height: 50vh;
+    background-color: hsla(205, 82%, 91%, 1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .name {
+    margin-top: 20vh;
+    margin-bottom: 0;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .linktoprojects {
+    display: flex;
+    justify-content: center;
+    text-decoration: unset;
+    width: 50%;
+    background-color: white;
+    color: black;
+    border: black solid 1px;
+    border-radius: 0.3rem;
+    padding: 1vh 1vw;
+  }
+}

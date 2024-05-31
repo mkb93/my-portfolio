@@ -1,0 +1,44 @@
+[
+    {
+        "img": "fit-find-fe.png",
+        "title": "Fit Find",
+        "description": "Fit Find is a Full-stack project that connects users to the health and fitness professionals around them allowing users to see posts, leave reviews and buy products",
+        "live": "https://fit-find-fe.vercel.app/",
+        "code": "https://github.com/adam-belahouane/Fit-Find-FE"
+    },
+    {
+        "img": "Spotify-Clone.png",
+        "title": "Spotify Clone",
+        "description": "I've developed an engaging and responsive front-end project using React, Redux, and Vanilla CSS, along with seamless integration of the Spotify API. This web application empowers users to effortlessly explore and discover their favorite music, providing a smooth navigation experience through songs, albums, and artists. With a user-friendly interface, the application offers the exciting ability to like tracks and albums, as well as follow artists for the latest updates. On top of that, it incorporates fully functional media controls, allowing users to enjoy a seamless playback experience for any available tracks.",
+        "live": "https://my-spotify-app.vercel.app/",
+        "code": "https://github.com/adam-belahouane/spotify-react"
+    },
+    {
+        "img": "Weather-App.png",
+        "title": "Weather App",
+        "description": "Discover the latest weather updates for any location with ease using this responsive and interactive Weather Web App. Built with React and TypeScript, the app seamlessly integrates with the OpenWeatherMap API to deliver real-time weather data. Experience a user-friendly interface designed with Bootstrap and visually appealing data visualization powered by Recharts. Stay informed about temperature, humidity, wind speed, and more with just a simple search.",
+        "live": "https://adams-weather-app.vercel.app/",
+        "code": "https://github.com/adam-belahouane/weather-app"
+    },
+    {
+        "img": "Dictionary-Web-App.png",
+        "title": "Dictionary Web App",
+        "description": "The Dictionary Web App is a dynamic and responsive web application built using React and vanilla CSS. The primary purpose of this app is to allow users to search for word definitions quickly and efficiently. With its user-friendly interface, it provides a seamless experience for users who wish to explore the meanings of different words. The app also features a dark and light theme, font customization options, and ensures it works smoothly across various devices.",
+        "live": "https://adams-dictionary.vercel.app/",
+        "code": "https://github.com/adam-belahouane/dictionary-web-app"
+    },
+    {
+        "img": "Memory-Game.png",
+        "title": "Memory Game",
+        "description": "The Web-based Memory Game is an engaging and interactive implementation of the classic memory game built using React and Redux. In this project, I created a fun and challenging game that allows users to test their memory and concentration skills. The game presents players with a grid of cards, which they must flip over to reveal matching pairs.",
+        "live": "https://my-memory-game.vercel.app/",
+        "code": "https://github.com/adam-belahouane/memory-game"
+    },
+    {
+        "img": "Tic-Tac-Toe.png",
+        "title": "Tic Tac Toe",
+        "description": "Explore the classic game of Tic Tac Toe with my web application! Built using Next.js, TypeScript, and Tailwind CSS, this interactive project offers two-player mode and single-player mode. Experience a seamless and visually appealing gaming interface on any device.",
+        "live": "https://adams-tic-tac-toe.vercel.app/",
+        "code": "https://github.com/adam-belahouane/tic-tac-toe-app"
+    }
+]
