@@ -17,14 +17,14 @@ const Contact = ({ setPageLocation }) => {
     console.log(e.target);
     await emailjs
       .sendForm(
-        "service_sf7ziep",
+        "service_3mzixfd",
         "template_nwn91a8",
         e.target,
         "n3Wuv2ruAUuU3ZXMv"
       )
       .then(
         (result) => {
-          alert("email sent")
+          alert("email sent");
           console.log(result);
         },
         (error) => {
@@ -51,26 +51,26 @@ const Contact = ({ setPageLocation }) => {
                 <h1>Send me a message!</h1>
               </div>
               <div className="namenemail">
-              <div className="form-group p-3">
-                <strong>Your Name * </strong>
-                <input
-                  required
-                  type="text"
-                  className="yourname"
-                  placeholder="Enter your name"
-                  name="name"
-                />
-              </div>
-              <div className="emaildiv">
-                <strong>Your Email * </strong>
-                <input
-                  required
-                  type="email"
-                  className="youremail"
-                  placeholder="Enter your email address"
-                  name="email"
-                />
-              </div>
+                <div className="form-group p-3">
+                  <strong>Your Name * </strong>
+                  <input
+                    required
+                    type="text"
+                    className="yourname"
+                    placeholder="Enter your name"
+                    name="name"
+                  />
+                </div>
+                <div className="emaildiv">
+                  <strong>Your Email * </strong>
+                  <input
+                    required
+                    type="email"
+                    className="youremail"
+                    placeholder="Enter your email address"
+                    name="email"
+                  />
+                </div>
               </div>
               <div className="form-group pt-2 p-3">
                 <strong>Your message * </strong>

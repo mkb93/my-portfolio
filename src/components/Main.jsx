@@ -5,7 +5,7 @@ const Main = ({ setPageLocation }) => {
   return (
     <>
       <div id="main">
-        <h1 className="name">Adam Belahouane</h1>
+        <h1 className="name">Marco Belahouane</h1>
 
         <h3 className="subname">Full Stack Developer</h3>
         <a className="linktoprojects" href="#projects">
