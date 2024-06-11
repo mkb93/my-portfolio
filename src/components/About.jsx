@@ -1,20 +1,22 @@
 import { Waypoint } from "react-waypoint";
 import "../styles/About.css";
 
-const About = ({setPageLocation}) => {
+const About = ({ setPageLocation }) => {
   return (
     <>
       <div id="about">
         <h3>About</h3>
         <p>
-          I am a Full stack(mern) Web Developer. Before making the switch to the
-          web development world, I was working in the construction industry in a
-          variety of roles that included learning how to use new technologies to
-          slove problems, working with people from diverse backgrounds as well
-          as leading small teams of people to complete complex tasks.
+          I am a full stack Developer, who started my coding journey from
+          learning the classic HTML, CSS, JAVASCRIPT whilst working as a muay
+          thai coach. After some careful consideration. I decided to change
+          career and go into software engineering. I did the Makers Bootcamp
+          which showed me how large and diverse the software and technology
+          industry is. I look foward to learning more and am constantly working
+          on myself and different projects to learn more and improve myself.
         </p>
         <p></p>
-        <Waypoint onEnter={() => setPageLocation("about")}/>
+        <Waypoint onEnter={() => setPageLocation("about")} />
         <h3>My Skill Set</h3>
         <div>
           <img
